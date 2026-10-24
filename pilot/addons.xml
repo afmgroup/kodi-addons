@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-  <addon id="plugin.video.tvhonedrive" name="TVHeadend OneDrive Archive" version="0.2.5" provider-name="AFM Group">
+  <addon id="plugin.video.tvhonedrive" name="TVHeadend OneDrive Archive" version="0.2.6" provider-name="AFM Group">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -10,7 +10,7 @@
     <extension point="xbmc.service" library="service.py" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en_GB">Browse verified TVHeadend archive recordings with explicit per-device access</summary>
-      <description lang="en_GB">Verified OneDrive Personal archive for approved devices: Microsoft owner sign-in or individually issued private archive links; no link or owner sign-in means no recording listings.</description>
+      <description lang="en_GB">Verified OneDrive Personal archive for approved devices: Microsoft owner sign-in or individually approved device pairing codes or private archive links; no link or owner sign-in means no recording listings.</description>
       <platform>all</platform>
       <license>MIT</license>
       <source>https://github.com/afmgroup/tvh-onedrive-archive</source>
