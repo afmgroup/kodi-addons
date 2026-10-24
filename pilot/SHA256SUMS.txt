@@ -7,3 +7,4 @@ f6f7881b5775b6b8a5fad2f73554ba6a7598780211322a19d36d801eff638bb5  plugin.video.t
 81b4e142868a9e803748ccc90a91e150b975af2c4bd06383cabdb35159989476  repository.afmgroup.pilot/repository.afmgroup.pilot-1.0.0.zip
 81b4e142868a9e803748ccc90a91e150b975af2c4bd06383cabdb35159989476  repository.afmgroup.pilot-1.0.0.zip
 fcaf3c95c7655d5b81ca0f4262d25523ca54942201c0b631f70ab1db7ed05b57  plugin.video.tvhonedrive/plugin.video.tvhonedrive-0.2.6.zip
+62d66df73f405f01e7252b5957e768f1a939bb5b28a018c59c2e404541140a9a  plugin.video.tvhonedrive/plugin.video.tvhonedrive-0.2.7.zip
