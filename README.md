@@ -1,13 +1,25 @@
 # AFM Group Kodi Add-ons
 
-Public distribution repository for tested Kodi add-ons, including **TVHeadend OneDrive Archive**.
+Kodi add-on distribution for the **TVHeadend OneDrive Archive**.
 
-**Status: repository initialized; no public add-on release has been published.**
+## Current status — controlled pilot
 
-The source code, automated tests, development releases, OneDrive credentials and production infrastructure configuration remain in a separate **private** development repository. This public repository will contain only reviewed installable packages, Kodi repository metadata and installation instructions.
+The repository's `pilot/` feed contains a working installable **TVHeadend OneDrive Archive v0.2.8** (`plugin.video.tvhonedrive`), plus Kodi repository metadata. It is a **pilot distribution**, not a declared general stable release.
 
-Once the first stable release passes validation, users will install the AFM Group Kodi repository from a ZIP file and receive subsequent updates through Kodi's standard add-on manager.
+On **2026-10-29**, the first **overseas macOS client** was sent an existing-Kodi installation package, with checksum-verifying downloader, pairing instructions and troubleshooting guide. **Client installation, device pairing and live playback remain unconfirmed** until the recipient reports back.
 
-Do **not** install or distribute development builds to overseas users. No working download or update feed exists yet.
+See the [first overseas Mac pilot rollout log](docs/FIRST-OVERSEAS-MAC-PILOT-2026-10-29.md) for the precise status and acceptance checklist.
+
+## Pilot add-on
+
+- Kodi add-on: `plugin.video.tvhonedrive`, version `0.2.8`
+- Distribution file: [pilot/plugin.video.tvhonedrive/plugin.video.tvhonedrive-0.2.8.zip](pilot/plugin.video.tvhonedrive/plugin.video.tvhonedrive-0.2.8.zip)
+- Verify downloads against [pilot/SHA256SUMS.txt](pilot/SHA256SUMS.txt).
+- Device authorization requires an administrator-approved eight-digit pairing code. Never commit pairing codes or access links.
+- Existing Kodi libraries, other add-ons and PVR settings do not need modification.
+
+The source code, automated tests, development builds, production server configuration and credentials live outside this public distribution repository. No credentials or tokens belong here.
+
+**Production infrastructure:** [afmgroup/tvh-onedrive-archive](https://github.com/afmgroup/tvh-onedrive-archive) (private; access required).
 
 Maintainer: AFM Group.
